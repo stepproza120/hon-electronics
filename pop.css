@@ -1,0 +1,121 @@
+*{
+    text-decoration: none;
+}
+body {
+    background-image: url("BG2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .footer-content-manu {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  
+    background-color: rgba(0, 0, 0, 0.5);
+  
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .img-footer-mg-10 {
+    transform: scale(60%);
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .span-footer-color-warning {
+    bottom: 50px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .con-login {
+    background-image: url("loginbg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scale(1.2);
+    background-size: contain;
+    max-width: 484px;
+    min-height: 315px;
+    min-width: 373px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .con-login-lg {
+    background-image: url("loginbg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scale(1.2);
+    background-size: contain;
+    max-width: 484px;
+    min-height: 530px;
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+    position: relative;
+  }
+  .title {
+    width: 319.2px;
+    height: 67.9px;
+    position: absolute;
+    transform: translate(-50%, 0);
+    left: 50%;
+    top: -32px;
+  }
+  .formLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+  }
+  .formLogin label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgba(133, 102, 102, 1);
+  }
+  input {
+    text-align: center;
+    background: transparent;
+    /*margin: 1rem 0;*/
+    width: 100%;
+    min-height: 32px;
+    border: 1px solid rgb(148, 147, 147);
+    border-radius: 10px;
+  
+    color: rgba(133, 102, 102, 1);
+  }
+  .img-box-btn-submit{
+    margin-top: 10px;
+  }
+  .img-character1 {
+    position: absolute;
+    bottom: 0%;
+    z-index: 1;
+  }
+  
+  .img-character2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: scaleX(-1);
+    z-index: 1;
+  }
+  .img_login{
+    transform: scale(60%)
+    width: 150px;
+    height: 40px;
+  }
